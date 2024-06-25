@@ -74,7 +74,7 @@ for($i = 1; $i <= 5; $i++){
 
 */
 
-
+/*
 
 $personajes = array ("Harry", "Hermione", "Ron", "Dumbledore", "Snape", "Draco");
 
@@ -98,12 +98,12 @@ $estudiantes = [
     ['nombre' => "Ginny", 'apellido' => "Wesley", 'casa' => "Gryffindor"], 
     ['nombre' => "Draco", 'apellido' => "Malfoid", 'casa' => "Slythering"],
 ];
-
+*/
 
 
 //FOR EACH
 
-
+/*
 print "<h3>Estudiantes de Hogwarts</h3>";
 
 print "<ul>";
@@ -114,3 +114,20 @@ foreach($estudiantes as $estudiante){
     print "</li>";
 }
 print "</ul>";
+*/
+print "<hr>";
+
+print "<h2> Tablas  de multiplicacion </h2>";
+
+for($i = 1; $i <= 10; $i++){
+    print "<h3>Tabla del indice $i </h3>";
+    print "<ul>";
+    for($numero = 1; $numero <= 10; $numero++){
+        
+    $resultado = $i * $numero;
+        print "<li> $i x $numero = $resultado </li>";
+    }
+
+    print "</ul>";
+
+};
