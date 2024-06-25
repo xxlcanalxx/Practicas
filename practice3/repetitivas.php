@@ -63,5 +63,54 @@ do{
 }
 while ($i <=5);
 */
-// FOR
+/*
 
+FOR
+for($i = 1; $i <= 5; $i++){
+    print "El numero es:" . $i . "<br>";
+}
+
+
+
+*/
+
+
+
+$personajes = array ("Harry", "Hermione", "Ron", "Dumbledore", "Snape", "Draco");
+
+print "<ul>";
+
+for($i = 0; $i < count($personajes); $i++){
+    print "<li>" . $personajes[$i] . "</li>";
+};
+
+print "</ul>";
+
+
+
+
+
+$estudiantes = [
+    ['nombre' => "Harry" , 'apellido' => "Potter" , 'casa' => "Gryffindor"] ,
+    ['nombre' => "Hermione", 'apellido' => "Granger", 'casa' => "Gryffindor"] ,
+    ['nombre' => "Ron", 'apellido' => "Wesley", 'casa' => "Gryffindor" ],
+    ['nombre' => "Neville", 'apellido' => "Longbottom", 'casa' => "Gryffindor"] ,
+    ['nombre' => "Ginny", 'apellido' => "Wesley", 'casa' => "Gryffindor"], 
+    ['nombre' => "Draco", 'apellido' => "Malfoid", 'casa' => "Slythering"],
+];
+
+
+
+//FOR EACH
+
+
+print "<h3>Estudiantes de Hogwarts</h3>";
+
+print "<ul>";
+
+foreach($estudiantes as $estudiante){
+    print "<li>";
+        print "Nombre: " . $estudiante['nombre'] . " " . $estudiante['apellido'] . " - Casa " . $estudiante['casa'];
+    print "</li>";
+}
+print "</ul>";
