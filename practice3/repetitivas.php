@@ -85,10 +85,8 @@ for($i = 0; $i < count($personajes); $i++){
 };
 
 print "</ul>";
-
-
-
-
+*/
+/*
 
 $estudiantes = [
     ['nombre' => "Harry" , 'apellido' => "Potter" , 'casa' => "Gryffindor"] ,
@@ -98,9 +96,8 @@ $estudiantes = [
     ['nombre' => "Ginny", 'apellido' => "Wesley", 'casa' => "Gryffindor"], 
     ['nombre' => "Draco", 'apellido' => "Malfoid", 'casa' => "Slythering"],
 ];
+
 */
-
-
 //FOR EACH
 
 /*
@@ -115,6 +112,10 @@ foreach($estudiantes as $estudiante){
 }
 print "</ul>";
 */
+
+//TABLA DE MULTIPLICACION: 
+
+/*
 print "<hr>";
 
 print "<h2> Tablas  de multiplicacion </h2>";
@@ -131,3 +132,6 @@ for($i = 1; $i <= 10; $i++){
     print "</ul>";
 
 };
+
+*/
+
